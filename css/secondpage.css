@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#everst {
+	width: 305px;
+	height: 300px;
+	padding-top: 5px;
+	margin-left: auto;
+}
+.list {
+	width: 300px;
+	height: 300px;
+}
+.list img {
+	width: 300px;
+	height: 300px;
+	position: right;
+}
+#scroll_to_top {
+	position: bottom;
+}
+.bottom a {
+	color: orange;
+}
