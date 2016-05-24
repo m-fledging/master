@@ -58,7 +58,7 @@
 /*current開始*/
 #contents .current {
 	width: 380px;
-	background-color: grey;
+	height: 50px;
 }
 #contents .current .date {
 	float: left;
@@ -73,17 +73,14 @@
 	display: inline-block;
 	width: 280px;
 	line-height: 25px;
-	vertical-align: middle;
 }
-#contents .current .box3 {
-	display: inline-block;
-	background-color: #0000FF;
+#contents .current .img {
+	float: right;
 	width: 50px;
-	height: 25px;
+	height: 50px;
 }
-
 #contents .current .day {
-	display: inline-block;
+	float: left;
 	width: 50px;
 	line-height: 25px;
 	background-color: #FFEEFF;
@@ -91,13 +88,13 @@
 	text-align: center;
 	vertical-align: middle;	
 }
-#contents .current .box4 {
+#contents .current .box3 {
 	display: inline-block;
-	background-color: #0000FF;
 	width: 280px;
 	height: 25px;
 }
-#contents .current .img {
-	float: right;
-}
 /*current終了*/
+
+/*guide開始*/
+
+/*guide終了*/
