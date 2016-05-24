@@ -3,28 +3,27 @@
 /*firstchild開始*/
 #contents .firstchild {
 	width: 380px;
-	height: 32px;
+	height: 50px;
 	background-color: #00AA00;
 }
 #contents .firstchild .pageback {
 	display: inline-block;
 	width: 48px;
-	height: 32px;
+	line-height: 50px;
 	vertical-align: middle;
 	margin: 0 0 0 8px;
 	color: white;
 }
 #contents .firstchild .schoolname {
 	display: inline-block;
-	width: 280px;
-	height: 32px;
+	width: 276px;
 	text-align: center;
 	vertical-align: middle;
 	color: white;
 }
-#contents .firstchild .box {
+#contents .firstchild .box1 {
 	display: inline-block;
-	width: 44px;
+	width: 48px;
 	color: #00AA00;
 }
 /*firstchild終了*/
@@ -32,26 +31,24 @@
 /*date開始*/
 #contents .date {
 	width: 380px;
-	height: 32px;
 	background-color: #CCFFCC;
 }
 #contents .date .month {
 	display: inline-block;
 	width: 48px;
-	height: 32px;
+	line-height: 50px;
 	margin: 0 0 0 8px;
 	vertical-align: middle;
 	color: black;
 }
-#contents .date .box {
+#contents .date .box2 {
 	display: inline-block;
 	width: 232px;
-	height: 32px;
 }
 #contents .date .year {
 	display: inline-block;
 	width: 84px;
-	height: 32px;
+	line-height: 50px;
 	margin: 0 8px 0 0;
 	vertical-align: middle;
 	color: black;
@@ -61,37 +58,46 @@
 /*current開始*/
 #contents .current {
 	width: 380px;
-	height: 32px;
+	background-color: grey;
 }
 #contents .current .date {
-	display: inline-block;
-	width: 42px;
-	height: 16px;
-	margin: 0 0 0 8px;
+	float: left;
+	width: 50px;
+	line-height: 25px;
 	background-color: #FFEEFF;
 	font-weight: bold;
 	text-align: center;
 	vertical-align: middle;
 }
-#contents .current .day {
-	display: block;
-	width: 42px;
-	height: 16px;
-}
 #contents .current .txt {
 	display: inline-block;
-	width: 232px;
-	height: 32px;
+	width: 280px;
+	line-height: 25px;
+	vertical-align: middle;
 }
-#contents .current .box {
+#contents .current .box3 {
 	display: inline-block;
-	width: 232px;
-	height: 32px;
+	background-color: #0000FF;
+	width: 50px;
+	height: 25px;
 }
-#contents .current .img {
+
+#contents .current .day {
 	display: inline-block;
 	width: 50px;
-	height: 32px;
-	margin: 0 8px 0 0;
+	line-height: 25px;
+	background-color: #FFEEFF;
+	color: #FF77FF;
+	text-align: center;
+	vertical-align: middle;	
+}
+#contents .current .box4 {
+	display: inline-block;
+	background-color: #0000FF;
+	width: 280px;
+	height: 25px;
+}
+#contents .current .img {
+	float: right;
 }
 /*current終了*/
