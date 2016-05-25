@@ -21,7 +21,7 @@
 	vertical-align: middle;
 	color: white;
 }
-#contents .firstchild .box1 {
+#contents .firstchild .firstchild__box {
 	display: inline-block;
 	width: 48px;
 	color: #00AA00;
@@ -40,7 +40,7 @@
 	vertical-align: middle;
 	color: black;
 }
-#contents .date .box2 {
+#contents .date .date__box {
 	display: inline-block;
 	width: 232px;
 }
@@ -67,12 +67,12 @@
 	text-align: center;
 	vertical-align: middle;
 }
-#contents .current .txt1 {
+#contents .current .current__txt {
 	display: inline-block;
 	width: 280px;
 	line-height: 25px;
 }
-#contents .current .img {
+#contents .current .current__img {
 	float: right;
 	width: 40px;
 	height: 40px;
@@ -87,7 +87,7 @@
 	text-align: center;
 	vertical-align: middle;	
 }
-#contents .current .box3 {
+#contents .current .current__box {
 	display: inline-block;
 	width: 280px;
 	height: 25px;
@@ -98,7 +98,7 @@
 	width: 380px;
 	height: 50px;
 }
-#contents .box4 {
+#contents .guide__box {
 	width: 380px;
 	height: 10px;
 }
@@ -110,23 +110,36 @@
 	margin: 0 0 0 8px;
 	background-color: #00AA00;
 }
-#contents .txt2 {
+#contents .guide__txt {
 	display: inline-block;
 	width: 276px;
 	line-height: 30px;
 	margin: 0 0 0 4px;
 }
-#contents .box5 {
+#contents .guide__box {
 	width: 380px;
 	height: 10px;
 }
 /*guide終了*/
+/*item開始*/
+#contents .item {
 
 
+}
+#contents .item .time1 {
 
 
-
-
-
-
-
+}
+#contents .item .txt1 {
+	
+	
+}
+#contents .item .adress1 {
+	
+	
+}
+#contents .item .img1 {
+	
+	
+}
+/*item終了*/
