@@ -27,7 +27,6 @@
 	color: #00AA00;
 }
 /*firstchild終了*/
-
 /*date開始*/
 #contents .date {
 	width: 380px;
@@ -54,7 +53,6 @@
 	color: black;
 }
 /*date終了*/
-
 /*current開始*/
 #contents .current {
 	width: 380px;
@@ -69,15 +67,16 @@
 	text-align: center;
 	vertical-align: middle;
 }
-#contents .current .txt {
+#contents .current .txt1 {
 	display: inline-block;
 	width: 280px;
 	line-height: 25px;
 }
 #contents .current .img {
 	float: right;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
+	margin: 5px;
 }
 #contents .current .day {
 	float: left;
@@ -94,7 +93,40 @@
 	height: 25px;
 }
 /*current終了*/
-
 /*guide開始*/
-
+#contents .guide {
+	width: 380px;
+	height: 50px;
+}
+#contents .box4 {
+	width: 380px;
+	height: 10px;
+}
+#contents .line {
+	float: left;
+	vertical-align: middle;
+	width: 5px;
+	height: 30px;
+	margin: 0 0 0 8px;
+	background-color: #00AA00;
+}
+#contents .txt2 {
+	display: inline-block;
+	width: 276px;
+	line-height: 30px;
+	margin: 0 0 0 4px;
+}
+#contents .box5 {
+	width: 380px;
+	height: 10px;
+}
 /*guide終了*/
+
+
+
+
+
+
+
+
+
