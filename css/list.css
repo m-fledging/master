@@ -136,29 +136,24 @@
 	display: inline-block;
 	width: 120px;
 	line-height: 16px;
-	margin: 0 0 0 15px;
+	padding: 10px 0 0 15px;
 	font-weight: bold;
 }
-#contents .item .item1 .item__box1 {
-	display: inline-block;
-	width: 100px;
-	height: 20px;
-}
 #contents .item .item1 .item__img1 {
-	display: inline-block;
-	width: 32px;
-	height: 32px;
-	margin: 10px 5px 0 0;
+	float: right;
+	margin: 21px 5px 0 0;
 }
 #contents .item .item1 .item__txt1 {
 	width: 310px;
-	height: 15px;
-	font-size: 6px;
+	line-height: 15px;
+	margin: 10px 0 0 15px;
+	font-size: 10px;
 }
 #contents .item .item1 .item__adress1 {
 	width: 310px;
-	height: 10px;
-	font-size: 4px;
+	line-height: 10px;
+	margin: 10px 0 0 15px;
+	font-size: 8px;
 	
 }
 /*item終了*/
