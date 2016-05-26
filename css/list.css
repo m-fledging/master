@@ -123,23 +123,42 @@
 /*guide終了*/
 /*item開始*/
 #contents .item {
-
-
+	width: 380px;
+	height: 480px;
+	background-color: #FFFFCC;
 }
-#contents .item .time1 {
-
-
+#contents .item .item1 {
+	width: 380px;
+	height: 80px;
+	background-color: #99FFCC;
 }
-#contents .item .txt1 {
-	
-	
+#contents .item .item1 .item__time1 {
+	display: inline-block;
+	width: 120px;
+	line-height: 16px;
+	margin: 0 0 0 15px;
+	font-weight: bold;
 }
-#contents .item .adress1 {
-	
-	
+#contents .item .item1 .item__box1 {
+	display: inline-block;
+	width: 100px;
+	height: 20px;
 }
-#contents .item .img1 {
-	
+#contents .item .item1 .item__img1 {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin: 10px 5px 0 0;
+}
+#contents .item .item1 .item__txt1 {
+	width: 310px;
+	height: 15px;
+	font-size: 6px;
+}
+#contents .item .item1 .item__adress1 {
+	width: 310px;
+	height: 10px;
+	font-size: 4px;
 	
 }
 /*item終了*/
