@@ -121,39 +121,92 @@
 	height: 10px;
 }
 /*guide終了*/
-/*item開始*/
-#contents .item {
+/*list開始*/
+#contents .list {
 	width: 380px;
 	height: 480px;
-	background-color: #FFFFCC;
+/*	background-color: #FFFFCC;*/
 }
-#contents .item .item1 {
+#contents .list .FirstItem {
 	width: 380px;
 	height: 80px;
-	background-color: #99FFCC;
 }
-#contents .item .item1 .item__time1 {
+#contents .list .FirstItem .FirstItem__time {
 	display: inline-block;
 	width: 120px;
 	line-height: 16px;
 	padding: 10px 0 0 15px;
 	font-weight: bold;
 }
-#contents .item .item1 .item__img1 {
+#contents .list .FirstItem .FirstItem__img {
 	float: right;
 	margin: 21px 5px 0 0;
 }
-#contents .item .item1 .item__txt1 {
+#contents .list .FirstItem .FirstItem__txt {
 	width: 310px;
 	line-height: 15px;
 	margin: 10px 0 0 15px;
 	font-size: 10px;
 }
-#contents .item .item1 .item__adress1 {
+#contents .list .FirstItem .FirstItem__adress {
 	width: 310px;
 	line-height: 10px;
 	margin: 10px 0 0 15px;
 	font-size: 8px;
-	
 }
-/*item終了*/
+#contents .list .SecondItem {
+	width: 380px;
+	height: 80px;
+	background-color: #DDDDDD;
+}
+#contents .list .SecondItem .SecondItem__time {
+	display: inline-block;
+	width: 120px;
+	line-height: 16px;
+	padding: 10px 0 0 15px;
+	font-weight: bold;
+}
+#contents .list .SecondItem .SecondItem__img {
+	float: right;
+	margin: 21px 5px 0 0;
+}
+#contents .list .SecondItem .SecondItem__txt {
+	width: 310px;
+	line-height: 15px;
+	margin: 10px 0 0 15px;
+	font-size: 10px;
+}
+#contents .list .SecondItem .SecondItem__adress {
+	width: 310px;
+	line-height: 10px;
+	margin: 10px 0 0 15px;
+	font-size: 8px;
+}
+#contents .list .ThirdItem {
+	width: 380px;
+	height: 80px;
+}
+#contents .list .ThirdItem .ThirdItem__time {
+	display: inline-block;
+	width: 120px;
+	line-height: 16px;
+	padding: 10px 0 0 15px;
+	font-weight: bold;
+}
+#contents .list .ThirdItem .ThirdItem__img {
+	float: right;
+	margin: 21px 5px 0 0;
+}
+#contents .list .ThirdItem .ThirdItem__txt {
+	width: 310px;
+	line-height: 15px;
+	margin: 10px 0 0 15px;
+	font-size: 10px;
+}
+#contents .list .ThirdItem .ThirdItem__adress {
+	width: 310px;
+	line-height: 10px;
+	margin: 10px 0 0 15px;
+	font-size: 8px;
+}
+/*list終了*/
