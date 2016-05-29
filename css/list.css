@@ -168,9 +168,13 @@
 }
 #contents .list .SecondItem .SecondItem__img {
 	float: right;
+	width: 32px;
+	height: 33px;
 	margin: 21px 5px 0 0;
 }
 #contents .list .SecondItem .SecondItem__txt {
+	float: left;
+	display: inline-block;
 	width: 310px;
 	line-height: 15px;
 	margin: 10px 0 0 15px;
@@ -182,7 +186,7 @@
 	margin: 10px 0 0 15px;
 	font-size: 8px;
 }
-#contents .list .ThirdItem {
+/*#contents .list .ThirdItem {
 	width: 380px;
 	height: 80px;
 }
