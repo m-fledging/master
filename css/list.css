@@ -170,48 +170,48 @@
 	padding: 10px 0 0 15px;
 	font-weight: bold;
 }
-#contents .list ol .SecondItem .SecondItem__img {
-	float: right;
-	width: 32px;
-	height: 33px;
-	margin: 21px 5px 0 0;
-}
 #contents .list ol .SecondItem .SecondItem__txt {
 	float: left;
-	display: inline-block;
 	width: 310px;
 	line-height: 15px;
 	margin: 10px 0 0 15px;
 	font-size: 10px;
 }
 #contents .list ol .SecondItem .SecondItem__adress {
+	float: left;
 	width: 310px;
 	line-height: 10px;
 	margin: 10px 0 0 15px;
 	font-size: 8px;
 }
-/*#contents .list .ThirdItem {
+#contents .list ol .SecondItem .SecondItem__img {
+	float: right;
+	width: 32px;
+	height: 32px;
+	margin: 0 5px 24px 0;
+}
+#contents .list ol .ThirdItem {
 	width: 380px;
 	height: 80px;
 }
-#contents .list .ThirdItem .ThirdItem__time {
+#contents .list ol .ThirdItem .ThirdItem__time {
 	display: inline-block;
 	width: 120px;
 	line-height: 16px;
 	padding: 10px 0 0 15px;
 	font-weight: bold;
 }
-#contents .list .ThirdItem .ThirdItem__img {
+#contents .list ol .ThirdItem .ThirdItem__img {
 	float: right;
 	margin: 21px 5px 0 0;
 }
-#contents .list .ThirdItem .ThirdItem__txt {
+#contents .list ol .ThirdItem .ThirdItem__txt {
 	width: 310px;
 	line-height: 15px;
 	margin: 10px 0 0 15px;
 	font-size: 10px;
 }
-#contents .list .ThirdItem .ThirdItem__adress {
+#contents .list ol .ThirdItem .ThirdItem__adress {
 	width: 310px;
 	line-height: 10px;
 	margin: 10px 0 0 15px;
