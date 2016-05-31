@@ -125,93 +125,170 @@
 #contents .list {
 	width: 380px;
 	height: 480px;
-/*	background-color: #FFFFCC;*/
 }
 #contents .list ol {
-	margin: 0;
 	padding: 0;
 }
-#contents .list ol .FirstItem {
-	width: 380px;
-	height: 80px;
-}
-#contents .list ol .FirstItem .FirstItem__time {
-	display: inline-block;
-	width: 120px;
-	line-height: 16px;
-	padding: 10px 0 0 15px;
-	font-weight: bold;
-}
-#contents .list ol .FirstItem .FirstItem__img {
-	float: right;
-	margin: 21px 5px 0 0;
-}
-#contents .list ol .FirstItem .FirstItem__txt {
-	width: 310px;
-	line-height: 15px;
-	margin: 10px 0 0 15px;
-	font-size: 10px;
-}
-#contents .list ol .FirstItem .FirstItem__adress {
-	width: 310px;
-	line-height: 10px;
-	margin: 10px 0 0 15px;
-	font-size: 8px;
-}
-#contents .list ol .SecondItem {
-	width: 380px;
-	height: 80px;
+ol li:nth-child(2n) {
 	background-color: #DDDDDD;
 }
-#contents .list ol .SecondItem .SecondItem__time {
+#contents .list .FirstItem {
+	width: 380px;
+	height: 80px;
+}
+#contents .list .FirstItem .FirstItem__time {
 	display: inline-block;
 	width: 120px;
 	line-height: 16px;
 	padding: 10px 0 0 15px;
 	font-weight: bold;
 }
-#contents .list ol .SecondItem .SecondItem__txt {
-	display: inline-block;
+#contents .list .FirstItem .FirstItem__img {
+	float: right;
+	margin: 21px 5px 0 0;
+}
+#contents .list .FirstItem .FirstItem__txt {
 	width: 310px;
 	line-height: 15px;
 	margin: 10px 0 0 15px;
 	font-size: 10px;
 }
-#contents .list ol .SecondItem .SecondItem__adress {
-	display: inline-block;
+#contents .list .FirstItem .FirstItem__adress {
 	width: 310px;
 	line-height: 10px;
 	margin: 10px 0 0 15px;
 	font-size: 8px;
 }
-#contents .list ol .SecondItem .SecondItem__img {
-	float: right;
-	width: 32px;
-	height: 32px;
-/*	margin: 0 5px 24px 0;*/
-}
-#contents .list ol .ThirdItem {
+#contents .list .SecondItem {
 	width: 380px;
 	height: 80px;
 }
-#contents .list ol .ThirdItem .ThirdItem__time {
+#contents .list .SecondItem .SecondItem__time {
 	display: inline-block;
 	width: 120px;
 	line-height: 16px;
 	padding: 10px 0 0 15px;
 	font-weight: bold;
 }
-#contents .list ol .ThirdItem .ThirdItem__img {
+#contents .list .SecondItem .SecondItem__img {
 	float: right;
 	margin: 21px 5px 0 0;
 }
-#contents .list ol .ThirdItem .ThirdItem__txt {
+#contents .list .SecondItem .SecondItem__txt {
 	width: 310px;
 	line-height: 15px;
 	margin: 10px 0 0 15px;
 	font-size: 10px;
 }
-#contents .list ol .ThirdItem .ThirdItem__adress {
+#contents .list .SecondItem .SecondItem__adress {
+	width: 310px;
+	line-height: 10px;
+	margin: 10px 0 0 15px;
+	font-size: 8px;
+}
+#contents .list .ThirdItem {
+	width: 380px;
+	height: 80px;
+}
+#contents .list .ThirdItem .ThirdItem__time {
+	display: inline-block;
+	width: 120px;
+	line-height: 16px;
+	padding: 10px 0 0 15px;
+	font-weight: bold;
+}
+#contents .list .ThirdItem .ThirdItem__img {
+	float: right;
+	margin: 21px 5px 0 0;
+}
+#contents .list .ThirdItem .ThirdItem__txt {
+	width: 310px;
+	line-height: 15px;
+	margin: 10px 0 0 15px;
+	font-size: 10px;
+}
+#contents .list .ThirdItem .ThirdItem__adress {
+	width: 310px;
+	line-height: 10px;
+	margin: 10px 0 0 15px;
+	font-size: 8px;
+}
+#contents .list .FourthItem {
+	width: 380px;
+	height: 80px;
+}
+#contents .list .FourthItem .FourthItem__time {
+	display: inline-block;
+	width: 120px;
+	line-height: 16px;
+	padding: 10px 0 0 15px;
+	font-weight: bold;
+}
+#contents .list .FourthItem .FourthItem__img {
+	float: right;
+	margin: 21px 5px 0 0;
+}
+#contents .list .FourthItem .FourthItem__txt {
+	width: 310px;
+	line-height: 15px;
+	margin: 10px 0 0 15px;
+	font-size: 10px;
+}
+#contents .list .FourthItem .FourthItem__adress {
+	width: 310px;
+	line-height: 10px;
+	margin: 10px 0 0 15px;
+	font-size: 8px;
+}
+#contents .list .FifthItem {
+	width: 380px;
+	height: 80px;
+}
+#contents .list .FifthItem .FifthItem__time {
+	display: inline-block;
+	width: 120px;
+	line-height: 16px;
+	padding: 10px 0 0 15px;
+	font-weight: bold;
+}
+#contents .list .FifthItem .FifthItem__img {
+	float: right;
+	margin: 21px 5px 0 0;
+}
+#contents .list .FifthItem .FifthItem__txt {
+	width: 310px;
+	line-height: 15px;
+	margin: 10px 0 0 15px;
+	font-size: 10px;
+}
+#contents .list .FifthItem .FifthItem__adress {
+	width: 310px;
+	line-height: 10px;
+	margin: 10px 0 0 15px;
+	font-size: 8px;
+}
+#contents .list .SixthItem {
+	width: 380px;
+	height: 80px;
+}
+#contents .list .SixthItem .SixthItem__time {
+	display: inline-block;
+	width: 120px;
+	line-height: 16px;
+	padding: 10px 0 0 15px;
+	font-weight: bold;
+}
+#contents .list .SixthItem .SixthItem__img {
+	float: right;
+	margin: 21px 5px 0 0;
+}
+#contents .list .SixthItem .SixthItem__txt {
+	width: 310px;
+	line-height: 15px;
+	margin: 10px 0 0 15px;
+	font-size: 10px;
+}
+#contents .list .SixthItem .SixthItem__adress {
 	width: 310px;
 	line-height: 10px;
 	margin: 10px 0 0 15px;
