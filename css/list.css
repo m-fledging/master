@@ -54,12 +54,15 @@
 }
 /*date終了*/
 /*current開始*/
-#contents .current {
+#contents ul.current {
+	display: table;
 	width: 380px;
 	height: 50px;
+	margin: 0;
+	padding: 0;
 }
-#contents .current .date {
-	float: left;
+#contents ul.current li.current__date {
+	display: table-cell;
 	width: 50px;
 	line-height: 25px;
 	background-color: #FFEEFF;
@@ -67,19 +70,8 @@
 	text-align: center;
 	vertical-align: middle;
 }
-#contents .current .current__txt {
-	display: inline-block;
-	width: 280px;
-	line-height: 25px;
-}
-#contents .current .current__img {
-	float: right;
-	width: 40px;
-	height: 40px;
-	margin: 5px;
-}
-#contents .current .day {
-	float: left;
+#contents ul.current li.current__day {
+	display: table-cell;
 	width: 50px;
 	line-height: 25px;
 	background-color: #FFEEFF;
@@ -87,10 +79,19 @@
 	text-align: center;
 	vertical-align: middle;	
 }
-#contents .current .current__box {
-	display: inline-block;
+#contents ul.current li.current__txt {
+	display: table-cell;
 	width: 280px;
-	height: 25px;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+#contents ul.current li.current__img {
+	display: table-cell;
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	vertical-align: middle;
 }
 /*current終了*/
 /*guide開始*/
