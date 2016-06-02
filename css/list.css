@@ -54,15 +54,12 @@
 }
 /*date終了*/
 /*current開始*/
-#contents ul.current {
-	display: table;
+#contents div.current {
 	width: 380px;
 	height: 50px;
-	margin: 0;
-	padding: 0;
 }
-#contents ul.current li.current__date {
-	display: table-cell;
+#contents div.current .current__date {
+	display: inline-block;
 	width: 50px;
 	line-height: 25px;
 	background-color: #FFEEFF;
@@ -70,8 +67,8 @@
 	text-align: center;
 	vertical-align: middle;
 }
-#contents ul.current li.current__day {
-	display: table-cell;
+#contents div.current .current__day {
+	display: inline-block;
 	width: 50px;
 	line-height: 25px;
 	background-color: #FFEEFF;
@@ -79,18 +76,24 @@
 	text-align: center;
 	vertical-align: middle;	
 }
-#contents ul.current li.current__txt {
+#contents div.current ul.current {
+	display: table;
+	width: 330px;
+	height: 50px;
+	padding: 0;
+	margin: 0;
+}
+#contents div.current ul.current li.current__txt {
 	display: table-cell;
-	width: 280px;
+	width: 240px;
 	height: 50px;
 	text-align: center;
 	vertical-align: middle;
 }
-#contents ul.current li.current__img {
+#contents div.current ul.current li.current__img {
 	display: table-cell;
 	width: 40px;
-	height: 40px;
-	margin: 5px;
+	height: 50px;
 	vertical-align: middle;
 }
 /*current終了*/
