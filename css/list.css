@@ -54,12 +54,16 @@
 }
 /*date終了*/
 /*current開始*/
-#contents div.current {
+#contents .current {
+	display: table;
 	width: 380px;
-	height: 50px;
 }
-#contents div.current .current__date {
-	display: inline-block;
+#contents  .current .current__dateday {
+	display: table-cell;
+	vertical-align: middle;
+}
+#contents  .current .current__dateday .current__date {
+	display: table-cell;
 	width: 50px;
 	line-height: 25px;
 	background-color: #FFEEFF;
@@ -67,8 +71,8 @@
 	text-align: center;
 	vertical-align: middle;
 }
-#contents div.current .current__day {
-	display: inline-block;
+#contents  .current .current__dateday .current__day {
+	display: table-cell;
 	width: 50px;
 	line-height: 25px;
 	background-color: #FFEEFF;
@@ -76,21 +80,14 @@
 	text-align: center;
 	vertical-align: middle;	
 }
-#contents div.current ul.current {
-	display: table;
-	width: 330px;
-	height: 50px;
-	padding: 0;
-	margin: 0;
-}
-#contents div.current ul.current li.current__txt {
+#contents  .current .current__txt {
 	display: table-cell;
 	width: 240px;
 	height: 50px;
 	text-align: center;
 	vertical-align: middle;
 }
-#contents div.current ul.current li.current__img {
+#contents  .current .current__img {
 	display: table-cell;
 	width: 40px;
 	height: 50px;
