@@ -10,7 +10,7 @@
 });*/
 
 $(function(){
-	$("#contents1").each(function(){
+	$(".list").each(function(){
 		$(this).find("li:gt(2)").each(function(){$(this).hide();});
 		$(this).append('<p>もっと見る</p>');
 		$(this).find("p:last").click(function(){$(this).parent().find("li").show(1); $(this).remain();});

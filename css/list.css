@@ -133,6 +133,10 @@
 ol li:nth-child(2n) {
 	background-color: #DDDDDD;
 }
+#contents .list ol li :hover {
+	background-color: #FFEEFF;
+	color: #FF77FF;
+}
 #contents .list .FirstItem {
 	width: 380px;
 	height: 80px;
