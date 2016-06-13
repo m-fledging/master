@@ -63,7 +63,7 @@
 	vertical-align: middle;
 }
 #contents  .current .current__dateday .current__date {
-	display: table-cell;
+	display: block;
 	width: 50px;
 	line-height: 25px;
 	background-color: #FFEEFF;
@@ -72,7 +72,7 @@
 	vertical-align: middle;
 }
 #contents  .current .current__dateday .current__day {
-	display: table-cell;
+	display: block;
 	width: 50px;
 	line-height: 25px;
 	background-color: #FFEEFF;
