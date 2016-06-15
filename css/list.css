@@ -82,7 +82,7 @@
 }
 #contents  .current .current__txt {
 	display: table-cell;
-	width: 240px;
+	width: 280px;
 	height: 50px;
 	text-align: center;
 	vertical-align: middle;
@@ -90,7 +90,9 @@
 #contents  .current .current__img {
 	display: table-cell;
 	width: 40px;
-	height: 50px;
+	height: 40px;
+	padding: 4px 5px 0 5px;
+	text-align: center;
 	vertical-align: middle;
 }
 /*current終了*/
@@ -129,6 +131,7 @@
 }
 #contents .list ol {
 	padding: 0;
+	list-style: none;
 }
 ol li:nth-child(2n) {
 	background-color: #DDDDDD;
