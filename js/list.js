@@ -3,7 +3,6 @@ $(function(){});はhtmlを読み込んでから処理を実行するという意
 */
 
 //	「もっと見る」「閉じる」をjQueryに書くパターン
-
 /*
 $(function(){
 		$('.more').each(function(){
@@ -28,29 +27,11 @@ $(function(){
 
 
 //	以下はhtmlに「もっと見る」「閉じる」を書いてjQueryにはその制御のみ書くパターン
-/*
 $(function(){
-		$(".list").each(function(){//.listは以下のような制御を持つ
-				$(".list").find("li:gt(2)").hide();//.listからliを３行表示させ、他のliは隠す
-				return false;//出来るまで繰り返す これ、いる？
-				});
-		$(".more").each(function(){//.moreは以下のような制御を持つ
-				$(".more").on('click', function(){//.moreをクリックすると以下の制御を持つ
-						$(".more").find("li:gt(5)");//.moreを隠す
-						$(".more").find("li:gt(5)");//liを６行表示させる
-						$(".more").find(".close");//.closeを表示させる
-						return false;//出来るまで繰り返す
-						});
-				$(".more").find(".close").on('click', function(){//.closeをクリックすると以下の制御を持つ
-						$(this).find('.more').nextAll.slideUp('slow', function(){//.closeを隠す
-								$(this).find('.more').show();//
-						});
-								return false;
-						});
-				});
+		$('.more').click(function(){
+				$('.list').show();
 });
-*/
-
+/*
 $(function(){//開始１
 	$('.list').each(function(){//.listは以下のような制御を持つ	開始２
 		$('.list').show('li:(2)').hide();//li1-3を表示させ、他のliは隠す
@@ -68,18 +49,5 @@ $(function(){//開始１
 		});//閉じ５
 	});//閉じ２
 });//閉じ１
-
-
-		
-/*
-$(function(){
-		$(".more").on('click',function(){
-				$(".more").show(2);				//.show() == css("display", "none");
-				
-			});
-		$(".close").on('click',function(){
-				$(".close").hide();			//.hide() == css("display", "none");
-				
-			});
-});
+*/
 

@@ -228,6 +228,7 @@ ol li:nth-child(2n) {
 #contents .list .FourthItem {
 	width: 380px;
 	height: 80px;
+	display: none;
 }
 #contents .list .FourthItem .FourthItem__time {
 	display: inline-block;
@@ -255,6 +256,7 @@ ol li:nth-child(2n) {
 #contents .list .FifthItem {
 	width: 380px;
 	height: 80px;
+	display: none;
 }
 #contents .list .FifthItem .FifthItem__time {
 	display: inline-block;
@@ -282,6 +284,7 @@ ol li:nth-child(2n) {
 #contents .list .SixthItem {
 	width: 380px;
 	height: 80px;
+	display: none;
 }
 #contents .list .SixthItem .SixthItem__time {
 	display: inline-block;
@@ -305,5 +308,8 @@ ol li:nth-child(2n) {
 	line-height: 10px;
 	margin: 10px 0 0 15px;
 	font-size: 8px;
+}
+#contents .list .close {
+	display: none;
 }
 /*list終了*/
