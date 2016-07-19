@@ -131,16 +131,15 @@
 /*list開始*/
 #contents .list {
 	width: 380px;
-	height: 480px;
 }
-#contents .list ol {
+#contents .list ul {
 	padding: 0;
 	list-style: none;
 }
-ol li:nth-child(2n) {
+ul li:nth-child(2n) {
 	background-color: #DDDDDD;
 }
-#contents .list ol li :hover {
+#contents .list ul li :hover {
 	background-color: #FFEEFF;
 	color: #FF77FF;
 }
@@ -228,7 +227,6 @@ ol li:nth-child(2n) {
 #contents .list .FourthItem {
 	width: 380px;
 	height: 80px;
-	display: none;
 }
 #contents .list .FourthItem .FourthItem__time {
 	display: inline-block;
@@ -256,7 +254,6 @@ ol li:nth-child(2n) {
 #contents .list .FifthItem {
 	width: 380px;
 	height: 80px;
-	display: none;
 }
 #contents .list .FifthItem .FifthItem__time {
 	display: inline-block;
@@ -284,7 +281,6 @@ ol li:nth-child(2n) {
 #contents .list .SixthItem {
 	width: 380px;
 	height: 80px;
-	display: none;
 }
 #contents .list .SixthItem .SixthItem__time {
 	display: inline-block;
@@ -309,7 +305,7 @@ ol li:nth-child(2n) {
 	margin: 10px 0 0 15px;
 	font-size: 8px;
 }
-#contents .list .close {
-	display: none;
+#contents .more {
+	color: #00AA00;
 }
 /*list終了*/

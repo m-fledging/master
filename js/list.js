@@ -27,10 +27,23 @@ $(function(){
 
 
 //	以下はhtmlに「もっと見る」「閉じる」を書いてjQueryにはその制御のみ書くパターン
+
 $(function(){
-		$('.more').click(function(){
-				$('.list').show();
+		$('li.hidden').hide();
+		$('#contents').on('click', '.more', function(){
+				$('li.hidden').show();
+				$(this).text(">>閉じる");
+				$(this).addClass("close");//<div class="more close">
+				$(this).removeClass("more");//<div class="close">
+		});
+		$('#contents').on('click', '.close', function(){
+				$('li.hidden').hide();
+				$(this).text(">>もっとみる");
+				$(this).addClass("more");
+				$(this).removeClass("close");
+		});
 });
+
 /*
 $(function(){//開始１
 	$('.list').each(function(){//.listは以下のような制御を持つ	開始２
