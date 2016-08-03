@@ -1,12 +1,12 @@
 /*michi_homeworkのlist.html用CSSです。*/
 
-/*firstchild開始*/
-#contents .firstchild {
+/*header開始*/
+#contents .header {
 	width: 380px;
 	height: 50px;
 	background-color: #00AA00;
 }
-#contents .firstchild .pageback {
+#contents .header .pageback {
 	display: inline-block;
 	width: 48px;
 	line-height: 50px;
@@ -14,19 +14,19 @@
 	margin: 0 0 0 8px;
 	color: white;
 }
-#contents .firstchild .schoolname {
+#contents .header .schoolname {
 	display: inline-block;
 	width: 276px;
 	text-align: center;
 	vertical-align: middle;
 	color: white;
 }
-#contents .firstchild .firstchild__box {
+#contents .header .firstchild__box {
 	display: inline-block;
 	width: 48px;
 	color: #00AA00;
 }
-/*firstchild終了*/
+/*header終了*/
 /*date開始*/
 #contents .date {
 	width: 380px;
@@ -53,18 +53,18 @@
 	color: black;
 }
 /*date終了*/
-/*current開始*/
-#contents .current {
+/*selectedData開始*/
+#contents .selectedData {
 	display: table;
 	width: 380px;
 }
-#contents .current .current__dateday {
+#contents .selectedData .selectedData__dateday {
 	display: table-cell;
 	vertical-align: middle;
 	width: 50px;
 	height: 50px;
 }
-#contents .current .current__dateday .current__date {
+#contents .selectedData .selectedData__dateday .selectedData__date {
 	display: block;
 	width: 50px;
 	line-height: 25px;
@@ -73,7 +73,7 @@
 	text-align: center;
 	vertical-align: middle;
 }
-#contents .current .current__dateday .current__day {
+#contents .selectedData .selectedData__dateday .selectedData__day {
 	display: block;
 	width: 50px;
 	line-height: 25px;
@@ -82,24 +82,24 @@
 	text-align: center;
 	vertical-align: middle;	
 }
-#contents .current .current__txt {
+#contents .selectedData .selectedData__txt {
 	display: table-cell;
 	width: 280px;
 	height: 50px;
 	text-align: center;
 	vertical-align: middle;
 }
-#contents .current .current__img {
+#contents .selectedData .selectedData__img {
 	display: table-cell;
 	width: 50px;
 	height: 50px;
 	text-align: center;
 	vertical-align: middle;
 }
-#contents .current .current__img img {
+#contents .selectedData .selectedData__img img {
 	margin: 5px 0 0 0;
 }
-/*current終了*/
+/*selectedData終了*/
 /*guide開始*/
 #contents .guide {
 	width: 380px;
