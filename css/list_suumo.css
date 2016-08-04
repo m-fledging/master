@@ -1,1 +1,82 @@
 /*michi_homeworkのlist_suumo.cssです。*/
+
+/*header__build*/
+#contents .header__build {
+	width: 500px;
+	background-color: #79706c;
+	color: #fff;
+	text-align: center;
+}
+/*custom__home__land*/
+#contents .custom__home__land {
+	display: table;
+	width: 500px;
+	height: 70px;
+}
+/*custom__home*/
+#contents .custom__home {
+	display: table-cell;
+	vertical-align: middle;
+	width: 250px;
+	height: 70px;
+	background-color: #EEEEEE;
+	
+}
+/*custom__home__image__house__txt*/
+#contents .custom__home .custom__home__image__house__txt {
+	width: 210px;
+	height: 70px;
+}
+/*custom__home__image__house*/
+#contents .custom__home .custom__home__image__house {
+	display: block;
+	width: 210px;
+	height: 40px;
+	padding: 5px 0;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #EEEEEE;
+}
+/*custom__home__txt*/
+#contents .custom__home .custom__home__txt {
+	display: block;
+	width: 210px;
+	padding: 2.5px 0;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 8px;
+	background-color: #EEEEEE;
+}
+/*custom__home__image__rightarrow*/
+#contents .custom__home__image__rightarrow {
+	display: inline-table;
+	width: 32px;
+	padding: 0 4px;
+	height: 70px;
+	background-color: #EEEEEE;
+	vertical-align: middle;
+}
+	/*land*/
+contents .land {
+	display: table-cell;
+	width: 250px;
+	height: 50px;
+	
+	
+}
+/*header__reform*/
+#contents .header__reform {
+	width: 500px;
+	background-color: #79706c;
+	color: #fff;
+	text-align: center;
+}
+/*header__reformおわり*/
+#
+#contents 
+#contents 
+#contents 
+#contents 
+#contents 
+#contents 
+#contents 
