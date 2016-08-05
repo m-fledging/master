@@ -20,16 +20,13 @@
 	width: 250px;
 	height: 70px;
 	background-color: #EEEEEE;
-	
 }
-/*custom__home__image__house__txt*/
-#contents .custom__home .custom__home__image__house__txt {
-	width: 210px;
-	height: 70px;
+#contents .custom__home a:hover {
+	cursor: pointer;
 }
 /*custom__home__image__house*/
 #contents .custom__home .custom__home__image__house {
-	display: block;
+	display: inline-block;
 	width: 210px;
 	height: 40px;
 	padding: 5px 0;
@@ -39,7 +36,7 @@
 }
 /*custom__home__txt*/
 #contents .custom__home .custom__home__txt {
-	display: block;
+	display: inline-block;
 	width: 210px;
 	padding: 2.5px 0;
 	text-align: center;
@@ -49,20 +46,51 @@
 }
 /*custom__home__image__rightarrow*/
 #contents .custom__home__image__rightarrow {
-	display: inline-table;
+	float: right;
 	width: 32px;
-	padding: 0 4px;
-	height: 70px;
+	padding: 15px 4px;
+	height: 40px;
 	background-color: #EEEEEE;
 	vertical-align: middle;
+	text-align: center;
 }
-	/*land*/
-contents .land {
+/*land*/
+#contents .land {
 	display: table-cell;
+	vertical-align: middle;
 	width: 250px;
-	height: 50px;
-	
-	
+	height: 70px;
+	background-color: #EEEEEE;
+}
+/*land__image__house*/
+#contents .land .land__image__land {
+	display: inline-block;
+	width: 210px;
+	height: 40px;
+	padding: 5px 0;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #EEEEEE;
+}
+/*land__txt*/
+#contents .land .land__txt {
+	display: inline-block;
+	width: 210px;
+	padding: 2.5px 0;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 8px;
+	background-color: #EEEEEE;
+}
+/*land__image__rightarrow*/
+#contents .land .land__image__rightarrow {
+	float: right;
+	width: 32px;
+	padding: 15px 4px;
+	height: 40px;
+	background-color: #EEEEEE;
+	vertical-align: middle;
+	text-align: center;
 }
 /*header__reform*/
 #contents .header__reform {
@@ -72,6 +100,91 @@ contents .land {
 	text-align: center;
 }
 /*header__reformおわり*/
+/*reform__household__equipment*/
+#contents .reform__household__equipment {
+	display: table;
+	width: 500px;
+	height: 70px;
+}
+/*reform*/
+#contents .reform {
+	display: table-cell;
+	vertical-align: middle;
+	width: 250px;
+	height: 70px;
+	background-color: #EEEEEE;
+	
+}
+/*reform__image__reform*/
+#contents .reform .reform__image__reform {
+	display: inline-block;
+	width: 210px;
+	height: 40px;
+	padding: 5px 0;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #EEEEEE;
+}
+/*reform__txt*/
+#contents .reform .reform__txt {
+	display: inline-block;
+	width: 210px;
+	padding: 2.5px 0;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 8px;
+	background-color: #EEEEEE;
+}
+/*reform__image__rightarrow*/
+#contents .reform__image__rightarrow {
+	float: right;
+	width: 32px;
+	padding: 15px 4px;
+	height: 40px;
+	background-color: #EEEEEE;
+	vertical-align: middle;
+	text-align: center;
+}
+/*household__equipment*/
+#contents .household__equipment {
+	display: table-cell;
+	vertical-align: middle;
+	width: 250px;
+	height: 70px;
+	background-color: #EEEEEE;
+	
+}
+/*household__equipment__image__household__equipment*/
+#contents .household__equipment .household__equipment__image__household__equipment {
+	display: inline-block;
+	width: 210px;
+	height: 40px;
+	padding: 5px 0;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #EEEEEE;
+}
+/*household__equipment__txt*/
+#contents .household__equipment .household__equipment__txt {
+	display: inline-block;
+	width: 210px;
+	padding: 2.5px 0;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 8px;
+	background-color: #EEEEEE;
+}
+/*household__equipment__image__rightarrow*/
+#contents .household__equipment .household__equipment__image__rightarrow {
+	float: right;
+	width: 32px;
+	padding: 15px 4px;
+	height: 40px;
+	background-color: #EEEEEE;
+	vertical-align: middle;
+	text-align: center;
+}
+
 #
 #contents 
 #contents 
