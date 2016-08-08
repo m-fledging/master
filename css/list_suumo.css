@@ -184,10 +184,91 @@
 	vertical-align: middle;
 	text-align: center;
 }
-
-#
-#contents 
-#contents 
+#contents .consult {
+	display: table;
+	width: 500px;
+	height: 50px;
+}
+#contents .consult .consult__image {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+}
+#contents .consult .consult__txt {
+	display: table-cell;
+	width: 450px;
+	height: 50px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+#contents .sell__lend {
+	display: table;
+	width: 500px;
+	height: 50px;
+}
+#contents .sell__lend .sell__lend__image {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+}
+#contents .sell__lend .sell__lend__txt {
+	display: table-cell;
+	width: 450px;
+	height: 50px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+#contents .live {
+	display: table;
+	width: 500px;
+	height: 50px;
+}
+#contents .live .live__image {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+}
+#contents .live .live__txt {
+	display: table-cell;
+	width: 450px;
+	height: 50px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+#contents .help {
+	display: table;
+	width: 500px;
+	height: 50px;
+}
+#contents .help .help__image {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+}
+#contents .help .help__txt {
+	display: table-cell;
+	width: 450px;
+	height: 50px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+#contents .application {
+	display: table;
+	width: 500px;
+	height: 50px;
+}
+#contents .application .application__image {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+}
+#contents .application .application__txt {
+	display: table-cell;
+	width: 450px;
+	height: 50px;
+	vertical-align: middle;
+	font-weight: bold;
+}
 #contents 
 #contents 
 #contents 
