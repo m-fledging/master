@@ -184,10 +184,12 @@
 	vertical-align: middle;
 	text-align: center;
 }
+/*consult*/
 #contents .consult {
 	display: table;
 	width: 500px;
 	height: 50px;
+	background-color: #F5F5F5;
 }
 #contents .consult .consult__image {
 	display: table-cell;
@@ -201,10 +203,82 @@
 	vertical-align: middle;
 	font-weight: bold;
 }
+/*counter__mansion*/
+#contents .counter__mansion {
+	width: 500px;
+	height: 50px;
+	border-top: #AAAAAA solid 1px;
+	border-bottom: #AAAAAA solid 1px;
+}
+#contents .counter__mansion .mansion {
+	display: table;
+	width: 500px;
+	height: 50px;
+}
+#contents .counter__mansion .mansion a:hover {
+	cursor: pointer;
+}
+#contents .counter__mansion .mansion .mansion__image__mansion {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+#contents .counter__mansion .mansion .mansion__txt {
+	display: table-cell;
+	width: 400px;
+	height: 50px;
+	vertical-align: middle;
+}
+#contents .counter__mansion .mansion .mansion__image__rightarrow {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+/*counter__custom__home*/
+#contents .counter__custom__home {
+	width: 500px;
+	height: 50px;
+	border-bottom: #AAAAAA solid 1px;
+}
+#contents .counter__custom__home .home {
+	display: table;
+	width: 500px;
+	height: 50px;
+}
+#contents .counter__custom__home .home a:hover {
+	cursor: pointer;
+}
+#contents .counter__custom__home .home .home__image__home {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+#contents .counter__custom__home .home .home__txt {
+	display: table-cell;
+	width: 400px;
+	height: 50px;
+	vertical-align: middle;
+}
+#contents .counter__custom__home .home .home__image__rightarrow {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+/*sell__lend*/
 #contents .sell__lend {
 	display: table;
 	width: 500px;
 	height: 50px;
+	background-color: #F5F5F5;
+	border-bottom: #AAAAAA solid 1px;
 }
 #contents .sell__lend .sell__lend__image {
 	display: table-cell;
@@ -218,10 +292,81 @@
 	vertical-align: middle;
 	font-weight: bold;
 }
+/*sale*/
+#contents .sale {
+	width: 500px;
+	height: 50px;
+}
+#contents .sale .sale {
+	display: table;
+	width: 500px;
+	height: 50px;
+}
+#contents .sale .sale a:hover {
+	cursor: pointer;
+}
+#contents .sale .sale .sale__image__sale {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+#contents .sale .sale .sale__txt {
+	display: table-cell;
+	width: 400px;
+	height: 50px;
+	vertical-align: middle;
+}
+#contents .sale .sale .sale__image__rightarrow {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+/*lend__management*/
+#contents .lend__management {
+	width: 500px;
+	height: 50px;
+	border-top: #AAAAAA solid 1px;
+}
+#contents .lend__management .lend {
+	display: table;
+	width: 500px;
+	height: 50px;
+}
+#contents .lend__management .lend a:hover {
+	cursor: pointer;
+}
+#contents .lend__management .lend .lend__image__lend {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+#contents .lend__management .lend .lend__txt {
+	display: table-cell;
+	width: 400px;
+	height: 50px;
+	vertical-align: middle;
+}
+#contents .lend__management .lend .lend__image__rightarrow {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+/*live*/
 #contents .live {
 	display: table;
 	width: 500px;
 	height: 50px;
+	background-color: #F5F5F5;
+	border-top: #AAAAAA solid 1px;
+	border-bottom: #AAAAAA solid 1px;
 }
 #contents .live .live__image {
 	display: table-cell;
@@ -235,10 +380,81 @@
 	vertical-align: middle;
 	font-weight: bold;
 }
+/*moving__estimate*/
+#contents .moving__estimate {
+	width: 500px;
+	height: 50px;
+	border-bottom: #AAAAAA solid 1px;
+}
+#contents .moving__estimate .estimate {
+	display: table;
+	width: 500px;
+	height: 50px;
+}
+#contents .moving__estimate .estimate a:hover {
+	cursor: pointer;
+}
+#contents .moving__estimate .estimate .estimate__image__estimate {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+#contents .moving__estimate .estimate .estimate__txt {
+	display: table-cell;
+	width: 400px;
+	height: 50px;
+	vertical-align: middle;
+}
+#contents .moving__estimate .estimate .estimate__image__rightarrow {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+/*diagnosis*/
+#contents .diagnosis {
+	width: 500px;
+	height: 50px;
+}
+#contents .diagnosis .diagnosis {
+	display: table;
+	width: 500px;
+	height: 50px;
+}
+#contents .diagnosis .diagnosis a:hover {
+	cursor: pointer;
+}
+#contents .diagnosis .diagnosis .diagnosis__image__diagnosis {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+#contents .diagnosis .diagnosis .diagnosis__txt {
+	display: table-cell;
+	width: 400px;
+	height: 50px;
+	vertical-align: middle;
+}
+#contents .diagnosis .diagnosis .diagnosis__image__rightarrow {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+/*help*/
 #contents .help {
 	display: table;
 	width: 500px;
 	height: 50px;
+	background-color: #F5F5F5;
+	border-top: #AAAAAA solid 1px;
+	border-bottom: #AAAAAA solid 1px;
 }
 #contents .help .help__image {
 	display: table-cell;
@@ -252,10 +468,81 @@
 	vertical-align: middle;
 	font-weight: bold;
 }
+/*journal*/
+#contents .SUUMOjournal {
+	width: 500px;
+	height: 50px;
+	border-bottom: #AAAAAA solid 1px;
+}
+#contents .SUUMOjournal .journal {
+	display: table;
+	width: 500px;
+	height: 50px;
+}
+#contents .SUUMOjournal .journal a:hover {
+	cursor: pointer;
+}
+#contents .SUUMOjournal .journal .journal__image__journal {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+#contents .SUUMOjournal .journal .journal__txt {
+	display: table-cell;
+	width: 400px;
+	height: 50px;
+	vertical-align: middle;
+}
+#contents .SUUMOjournal .journal .journal__image__rightarrow {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+/*know-how*/
+#contents .know-how {
+	width: 500px;
+	height: 50px;
+	border-bottom: #AAAAAA solid 1px;
+}
+#contents .know-how .know-how {
+	display: table;
+	width: 500px;
+	height: 50px;
+}
+#contents .know-how .know-how a:hover {
+	cursor: pointer;
+}
+#contents .know-how .know-how .know-how__image__know-how {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+#contents .know-how .know-how .know-how__txt {
+	display: table-cell;
+	width: 400px;
+	height: 50px;
+	vertical-align: middle;
+}
+#contents .know-how .know-how .know-how__image__rightarrow {
+	display: table-cell;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+/*application*/
 #contents .application {
 	display: table;
 	width: 500px;
 	height: 50px;
+	background-color: #F5F5F5;
+	border-bottom: #AAAAAA solid 1px;
 }
 #contents .application .application__image {
 	display: table-cell;
@@ -268,38 +555,6 @@
 	height: 50px;
 	vertical-align: middle;
 	font-weight: bold;
-}
-#contents .counter__mansion {
-	width: 500px;
-	height: 50px;
-}
-#contents .counter__mansion .counter {
-	display: table;
-	width: 500px;
-	height: 50px;
-}
-#contents ..counter__mansion .counter a:hover {
-	cursor: pointer;
-}
-#contents .counter__mansion .counter .counter__image__counter {
-	display: table-cell;
-	width: 50px;
-	height: 50px;
-	vertical-align: middle;
-	text-align: center;
-}
-#contents .counter__mansion .counter .counter__txt {
-	display: table-cell;
-	width: 400px;
-	height: 50px;
-	vertical-align: middle;
-}
-#contents .counter__mansion .counter .counter__image__rightarrow {
-	display: table-cell;
-	width: 50px;
-	height: 50px;
-	vertical-align: middle;
-	text-align: center;
 }
 #contents 
 #contents 
