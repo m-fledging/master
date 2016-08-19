@@ -17,7 +17,7 @@
 #contents .custom__home {
 	display: table-cell;
 	vertical-align: middle;
-	width: 250px;
+	width: 210px;
 	height: 70px;
 	background-color: #EEEEEE;
 }
@@ -47,21 +47,22 @@
 }
 /*custom__home__image__rightarrow*/
 #contents .custom__home__image__rightarrow {
-	float: right;
-	width: 32px;
-	padding: 15px 4px;
-	height: 40px;
+	display: table-cell;
+	width: 100%;
+	height: 100%;
 	background-color: #EEEEEE;
 	vertical-align: middle;
 	text-align: center;
+	border-right: #79706c solid 1px;
 }
 /*land*/
 #contents .land {
 	display: table-cell;
 	vertical-align: middle;
-	width: 250px;
+	width: 210px;
 	height: 70px;
 	background-color: #EEEEEE;
+	border-left: #79706c solid 1px;
 }
 /*land__image__house*/
 #contents .land .land__image__land {
@@ -85,14 +86,22 @@
 	color: black;
 }
 /*land__image__rightarrow*/
-#contents .land .land__image__rightarrow {
-	float: right;
-	width: 32px;
-	padding: 15px 4px;
-	height: 40px;
+#contents .land__image__rightarrow {
+	display: table-cell;
+	width: 100%;
+	height: 100%;
 	background-color: #EEEEEE;
 	vertical-align: middle;
 	text-align: center;
+	position: relative;
+}
+#contents .land__image__rightarrow a {
+	display: block;
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 /*header__reform*/
 #contents .header__reform {
@@ -112,7 +121,7 @@
 #contents .reform {
 	display: table-cell;
 	vertical-align: middle;
-	width: 250px;
+	width: 210px;
 	height: 70px;
 	background-color: #EEEEEE;
 }
@@ -139,21 +148,30 @@
 }
 /*reform__image__rightarrow*/
 #contents .reform__image__rightarrow {
-	float: right;
+	display: table-cell;
 	width: 32px;
 	padding: 15px 4px;
 	height: 40px;
 	background-color: #EEEEEE;
 	vertical-align: middle;
 	text-align: center;
+	border-right: #79706c solid 1px;
+}
+#contents .reform__image__rightarrow a {
+	
 }
 /*household__equipment*/
 #contents .household__equipment {
 	display: table-cell;
 	vertical-align: middle;
-	width: 250px;
+	width: 210px;
 	height: 70px;
 	background-color: #EEEEEE;
+	border-left: #79706c solid 1px;
+	position: relative;
+}
+#contents .household__equipment a {
+	
 }
 /*household__equipment__image__household__equipment*/
 #contents .household__equipment .household__equipment__image__household__equipment {
@@ -177,13 +195,25 @@
 	color: black;
 }
 /*household__equipment__image__rightarrow*/
-#contents .household__equipment .household__equipment__image__rightarrow {
-	float: right;
-	width: 32px;
-	padding: 15px 4px;
-	height: 40px;
+#contents .household__equipment__image__rightarrow {
+	display: table-cell;
+	width: 100%;
+	height: 100%;
 	background-color: #EEEEEE;
 	vertical-align: middle;
+	text-align: center;
+	position: relative;
+}
+#contents .household__equipment__image__rightarrow a {
+	display: block;
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+#contents .household__equipment__image__rightarrow img {
 	text-align: center;
 }
 /*consult*/
@@ -217,10 +247,17 @@
 	display: table;
 	width: 500px;
 	height: 50px;
+	position: relative;
 }
 #contents .counter__mansion .mansion a {
 	text-decoration: none;
 	color: black;
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+	position: absolute;
 }
 #contents .counter__mansion .mansion a:hover {
 	cursor: pointer;
@@ -237,6 +274,7 @@
 	width: 400px;
 	height: 50px;
 	vertical-align: middle;
+	text-align: left;
 }
 #contents .counter__mansion .mansion .mansion__image__rightarrow {
 	display: table-cell;
@@ -255,10 +293,17 @@
 	display: table;
 	width: 500px;
 	height: 50px;
+	position: relative;
 }
 #contents .counter__custom__home .home a {
 	text-decoration: none;
 	color: black;
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+	position: absolute;
 }
 #contents .counter__custom__home .home a:hover {
 	cursor: pointer;
@@ -275,6 +320,7 @@
 	width: 400px;
 	height: 50px;
 	vertical-align: middle;
+	text-align: left;
 }
 #contents .counter__custom__home .home .home__image__rightarrow {
 	display: table-cell;
@@ -312,10 +358,17 @@
 	display: table;
 	width: 500px;
 	height: 50px;
+	position: relative;
 }
 #contents .sale .sale a {
 	text-decoration: none;
 	color: black;
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+	position: absolute;
 }
 #contents .sale .sale a:hover {
 	cursor: pointer;
@@ -332,6 +385,7 @@
 	width: 400px;
 	height: 50px;
 	vertical-align: middle;
+	text-align: left;
 }
 #contents .sale .sale .sale__image__rightarrow {
 	display: table-cell;
@@ -350,10 +404,17 @@
 	display: table;
 	width: 500px;
 	height: 50px;
+	position: relative;
 }
 #contents .lend__management .lend a {
 	text-decoration: none;
 	color: black;
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+	position: absolute;
 }
 #contents .lend__management .lend a:hover {
 	cursor: pointer;
@@ -370,6 +431,7 @@
 	width: 400px;
 	height: 50px;
 	vertical-align: middle;
+	text-align: left;
 }
 #contents .lend__management .lend .lend__image__rightarrow {
 	display: table-cell;
@@ -409,10 +471,17 @@
 	display: table;
 	width: 500px;
 	height: 50px;
+	position: relative;
 }
 #contents .moving__estimate .estimate a {
 	text-decoration: none;
 	color: black;
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+	position: absolute;
 }
 #contents .moving__estimate .estimate a:hover {
 	cursor: pointer;
@@ -429,6 +498,7 @@
 	width: 400px;
 	height: 50px;
 	vertical-align: middle;
+	text-align: left;
 }
 #contents .moving__estimate .estimate .estimate__image__rightarrow {
 	display: table-cell;
@@ -446,10 +516,17 @@
 	display: table;
 	width: 500px;
 	height: 50px;
+	position: relative;
 }
 #contents .diagnosis .diagnosis a {
 	text-decoration: none;
 	color: black;
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+	position: absolute;
 }
 #contents .diagnosis .diagnosis a:hover {
 	cursor: pointer;
@@ -466,6 +543,7 @@
 	width: 400px;
 	height: 50px;
 	vertical-align: middle;
+	text-align: left;
 }
 #contents .diagnosis .diagnosis .diagnosis__image__rightarrow {
 	display: table-cell;
@@ -505,10 +583,17 @@
 	display: table;
 	width: 500px;
 	height: 50px;
+	position: relative;
 }
 #contents .SUUMOjournal .journal a {
 	text-decoration: none;
 	color: black;
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+	position: absolute;
 }
 #contents .SUUMOjournal .journal a:hover {
 	cursor: pointer;
@@ -525,6 +610,7 @@
 	width: 400px;
 	height: 50px;
 	vertical-align: middle;
+	text-align: left;
 }
 #contents .SUUMOjournal .journal .journal__image__rightarrow {
 	display: table-cell;
@@ -543,10 +629,17 @@
 	display: table;
 	width: 500px;
 	height: 50px;
+	position: relative;
 }
 #contents .know-how .know-how a {
 	text-decoration: none;
 	color: black;
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+	position: absolute;
 }
 #contents .know-how .know-how a:hover {
 	cursor: pointer;
@@ -563,6 +656,7 @@
 	width: 400px;
 	height: 50px;
 	vertical-align: middle;
+	text-align: left;
 }
 #contents .know-how .know-how .know-how__image__rightarrow {
 	display: table-cell;
