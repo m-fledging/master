@@ -48,8 +48,9 @@
 /*custom__home__image__rightarrow*/
 #contents .custom__home__image__rightarrow {
 	display: table-cell;
-	width: 100%;
-	height: 100%;
+	width: 32px;
+	height: 40px;
+	padding: 15px 4px;
 	background-color: #EEEEEE;
 	vertical-align: middle;
 	text-align: center;
@@ -158,7 +159,7 @@
 	border-right: #79706c solid 1px;
 }
 #contents .reform__image__rightarrow a {
-	
+
 }
 /*household__equipment*/
 #contents .household__equipment {
@@ -171,7 +172,7 @@
 	position: relative;
 }
 #contents .household__equipment a {
-	
+
 }
 /*household__equipment__image__household__equipment*/
 #contents .household__equipment .household__equipment__image__household__equipment {
@@ -702,4 +703,4 @@
 	font-weight: bold;
 	background-color: #F5F5F5;
 }
-#contents 
+#contents
